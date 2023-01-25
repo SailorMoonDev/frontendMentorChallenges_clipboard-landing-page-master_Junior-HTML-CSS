@@ -35,12 +35,12 @@ body {
 
 main {
   width: 85%;
-  margin: 7.8rem auto;
+  margin: 8.5rem auto;
   text-align: center;
 }
 
 .logo-header {
-  margin-bottom: 62px;
+  margin-bottom: 69px;
 }
 
 h1 {
@@ -48,7 +48,7 @@ h1 {
   font-weight: 600;
   font-size: 2rem;
   line-height: 2.53rem;
-  margin-bottom: 20px;
+  margin-bottom: 29px;
 }
 
 p {
@@ -60,7 +60,8 @@ p {
 
 header > p {
   padding: 0 5px;
-  margin-bottom: 3rem;
+  margin:0 auto 3rem;
+  max-width: 595px;
 }
 
 .buttons-container {
@@ -97,7 +98,7 @@ button:hover {
 }
 
 header {
-  max-width: 595px;
+  
   margin: 0 auto 10rem;
 }
 
@@ -240,6 +241,15 @@ footer a:hover {
 /*============================= >= 1440px  ==================================*/
 
 @media only screen and (min-width: 1340px) {
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  p{
+    font-size:1.3rem;
+  }
+
   .buttons-container {
     flex-direction: row;
     justify-content: center;
