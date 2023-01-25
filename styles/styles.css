@@ -242,6 +242,9 @@ footer a:hover {
 
 @media only screen and (min-width: 1340px) {
 
+  body {
+    background-image: url("/images/bg-header-desktop.png");
+
   h1 {
     font-size: 3rem;
   }
